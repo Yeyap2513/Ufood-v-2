@@ -1,5 +1,5 @@
 <template>
-  <div class="collection-item col-md-4">
+  <div class="collection-item">
     <div class="d-flex justify-content-center align-items-center flex-column">
       <div class="row">
           <div class="col-12">
@@ -127,6 +127,9 @@ export default defineComponent({
     border: 2px solid #E2850B;
     box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
     height: auto;
+    width: auto;
+    min-width: 300px;
+    max-width: 300px
 }
 
 .collection-description {

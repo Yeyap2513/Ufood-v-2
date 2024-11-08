@@ -14,7 +14,7 @@
           :mode="'real'"
           @updateCollectionName="handleUpdateCollectionName"
           @collectionDeleted="handleCollectionDeleted"
-          class="col-12 col-md-6 col-lg-3 m-1"
+          class="col-12 col-md-4 m-1"
         />
       </div>
     </div>
