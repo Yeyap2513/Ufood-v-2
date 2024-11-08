@@ -1,0 +1,131 @@
+section {
+    margin-top: 2.5vh;
+    margin-bottom: 5vh;
+  }
+  h3{
+    padding-bottom: 3vh;
+  }
+  #ribbon_carousel {
+    position: relative;
+    height: 50vh;
+    overflow: hidden;
+  }
+  
+  #resto_infos{
+    position: absolute;
+    bottom: 41.5%;
+    left: 2vw;
+    padding: 1vw;
+    background-color: rgba(0, 0, 0, 0.468);
+    border-radius: 25px;
+    color: white;
+    z-index: 1000;
+  }
+  @media (max-width: 768px) {
+    #resto_infos {
+      left: 0;
+      position: relative;
+      border-radius: 0;
+      background-color: rgb(0, 0, 0);
+    }
+  }
+  
+  
+    .type_value{
+      display:flex;
+      border-radius: 25px;
+      border: solid;
+      border-color:grey;
+      border-width: 1px;
+      gap: 1vw;
+    }
+    .type_value p{
+      margin-top: 2vh;
+      color: grey;
+      font-size: 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .type_search_icon{
+      color: rgb(105, 105, 105);
+      font-size: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    #infos_important{
+      border: solid;
+      padding: 3vh;
+      border-radius: 15px;
+      border-width: 1px;
+      border-color: rgb(124, 124, 124);
+    }
+  
+    #infos_important_cell{
+      border: solid;
+      padding: 1vh;
+      border-radius: 15px 15px 0 0;
+      border-width: 1px;
+      background-color: rgb(255, 255, 255);
+    }
+    #infos_important_cell a, #infos_important a{
+      color: black;
+      text-decoration: underline;
+    }
+    #infos_important_cell i, #infos_important i{
+      color: black;
+      font-size: 30px;
+      
+    }
+    
+    #star {
+      position: relative;
+      font-size: 30px;
+      color: #ddd; /* Couleur des étoiles vides */
+    }
+    
+    #star .filled {
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+      white-space: nowrap;
+      color: #ffc107;
+    }
+
+    #open_resto{
+      height: 15px;
+      width: 15px;
+      border-radius: 100%;
+      background-color: #15e815;
+      box-shadow: 0px 0px 10px 2px rgb(76, 255, 40);
+      display: inline-block;
+    }
+    #closed_resto{
+      height: 15px;
+      width: 15px;
+      border-radius: 100%;
+      background-color: #e81515;
+      box-shadow: 0px 0px 10px 2px rgb(255, 40, 40);
+      display: inline-block;
+    }
+
+    #post_img_container img{
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+    #post_img_container img:hover{
+        transform: scale(1.05);
+    }
+
+    #btn-itinerary {
+      margin-top : 4%;
+      background-color: #E2850B;
+      border: none;
+    }
+
+    .add_collection_button{
+      cursor: pointer;
+    }
